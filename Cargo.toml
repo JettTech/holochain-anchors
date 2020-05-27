@@ -10,7 +10,7 @@ license-file = "LICENSE"
 
 [dependencies]
 # while hc rust with futures-dep-fix remains unreleased, peg hdk crate to master branch
-hdk = { git = 'https://github.com/holochain/holochain-rust', branch = 'develop' }
+hdk = { git = 'https://github.com/holochain/holochain-rust', branch = 'future-dep-fix' }
 serde_derive = "1.0.104"
 serde_json = { version = "=1.0.47", features = ["preserve_order"] }
 holochain_json_derive = "=0.0.23"
